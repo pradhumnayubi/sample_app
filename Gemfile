@@ -54,6 +54,7 @@ gem 'guard-minitest'
 gem 'turbolinks'
 gem 'webpacker'
 gem 'rails-controller-testing'
+gem 'bcrypt'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
