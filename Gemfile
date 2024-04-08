@@ -56,7 +56,7 @@ gem 'webpacker'
 gem 'rails-controller-testing'
 gem 'bcrypt'
 gem 'byebug'
-
+gem 'jquery-rails'
 
 
 group :development, :test do
