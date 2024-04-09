@@ -57,6 +57,9 @@ gem 'rails-controller-testing'
 gem 'bcrypt'
 gem 'byebug'
 gem 'jquery-rails'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 
 group :development, :test do
