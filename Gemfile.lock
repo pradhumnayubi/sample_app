@@ -128,6 +128,9 @@ GEM
     guard-minitest (2.4.6)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
+    guard-sprockets (0.1.4)
+      guard (>= 0.2.2)
+      sprockets
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -326,6 +329,7 @@ DEPENDENCIES
   debug
   guard
   guard-minitest
+  guard-sprockets
   importmap-rails
   jbuilder
   jquery-rails

@@ -3,6 +3,7 @@
 # https://github.com/learnenough/sample_app_6th_ed/blob/main/Guardfile
 
 require "active_support/inflector"
+
 # Defines the matching rules for Guard.
 guard :minitest, all_on_start: false do
   watch(%r{^test/(.*)/?(.*)_test\.rb$})
@@ -54,6 +55,9 @@ guard :minitest, all_on_start: false do
      'test/integration/following_test.rb']
   end
 end
+
+
+
 
 # Returns the integration tests corresponding to the given resource.
 def integration_tests(resource = :all)
